@@ -7,3 +7,5 @@
 ![](assets/kill_status.jpg "")
 
 ![](assets/kill_switches.jpg "")
+
+![](assets/pcb.jpg "")
