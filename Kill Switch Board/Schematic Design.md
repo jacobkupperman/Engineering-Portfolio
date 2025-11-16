@@ -1,5 +1,6 @@
 # Overview
 ## Part 1: Motor Relays
+
 	The relays for the motor must be capable of handling 24VDC and up to 50A through its contacts (NO and COM nodes). The relay depicted in the schematic is the 
 HE1AN-W-DC12V-Y6 by Panasonic Industrial Devices. It is capable of handling a maximum of 60VDC and 90A through its contacts as well as the 12VDC through its one 
 coil—it is a 1 Form A relay. It is also set up with a flyback diode which connects to both sides of the coil. Because the coil has a current rating of 160 mA when 
