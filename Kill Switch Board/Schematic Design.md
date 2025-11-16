@@ -8,4 +8,4 @@
 
 ![](assets/kill_switches.jpg "")
 
-![](assets/pcb.jpg "")
+<img width="1150" height="780" alt="image" src="https://github.com/user-attachments/assets/af1ea010-ac4c-4846-bf67-916eb14904dc" />
