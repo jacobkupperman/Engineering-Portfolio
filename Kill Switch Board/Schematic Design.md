@@ -1,6 +1,9 @@
 # Overview
 ## Part 1: Motor Relays
-	The relays for the motor must be capable of handling 24VDC and up to 50A through its contacts (NO and COM nodes). The relay depicted in the schematic is the HE1AN-W-DC12V-Y6 by Panasonic Industrial Devices. It is capable of handling a maximum of 60VDC and 90A through its contacts as well as the 12VDC through its one coil—it is a 1 Form A relay. It is also set up with a flyback diode which connects to both sides of the coil. Because the coil has a current rating of 160 mA when 12VDC is applied to it, the flyback diode simply needs to resist that amount of current and voltage.
+	The relays for the motor must be capable of handling 24VDC and up to 50A through its contacts (NO and COM nodes). The relay depicted in the schematic is the 
+HE1AN-W-DC12V-Y6 by Panasonic Industrial Devices. It is capable of handling a maximum of 60VDC and 90A through its contacts as well as the 12VDC through its one 
+coil—it is a 1 Form A relay. It is also set up with a flyback diode which connects to both sides of the coil. Because the coil has a current rating of 160 mA when 
+12VDC is applied to it, the flyback diode simply needs to resist that amount of current and voltage.
 
 ## Part 2: MOSFETs
 	There are two MOSFETs in the schematic. The first one (located in the upper left of the design, see Figure 1) is meant to signal the microcontroller if the power supply is cut (presumably by way of the external kill switch). Connected to the source is 3.3 V from the power distribution board, and 12V from the power distribution board are applied to the gate. As long as the 12V continues to be supplied, the 3.3 V will reach the drain and be directed to a GPIO pin on the microcontroller. In this way, a 0V input to the GPIO pin can indicate a loss of power. 
