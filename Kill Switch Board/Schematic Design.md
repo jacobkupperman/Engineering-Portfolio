@@ -2,6 +2,8 @@
 
 ![](assets/overview.jpg "")
 
-![](assets/Dig Kill.jpg "")
+![](assets/dig_kill.jpg "")
 
-![](assets/Kill Status.jpg "")
+![](assets/kill_status.jpg "")
+
+![](assets/kill_switches.jpg "")
