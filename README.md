@@ -16,7 +16,6 @@ I am Jacob Kupperman, a Mechanical Engineer minoring in Robotics. I have hands-o
 ## All Projects
 
  -  Kill Switch Board Design
- -  1st Order Optimization Algorithm for Energy Estimation
 
 ---
 
